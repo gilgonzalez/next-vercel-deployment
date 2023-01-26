@@ -10,7 +10,7 @@ const DarkLayout : FC<Props> = ({children}) => {
         background:'rgba(0,0,0,0.3)',
         borderRadius:'5px',
         padding:'10px',
-        width:'100%',
+        width:'1000px',
         height:'auto'
     }}>
         <h3>Dark layout</h3>

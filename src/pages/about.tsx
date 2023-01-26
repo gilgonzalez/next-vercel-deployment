@@ -27,7 +27,7 @@ export default function AboutPage() {
 
 AboutPage.getLayout = function getLayout( page:JSX.Element[] ) {
   const styles = {
-    backgroundColor:'#ff6961'
+    backgroundColor:'#ff6961',width:'100%'
   }
   return (
     <MainLayout styles={styles}>

@@ -22,7 +22,7 @@ export default function HomePage() {
 }
 
 HomePage.getLayout = function getLayout( page:JSX.Element[] ) {
-  const styles = {backgroundColor:'#84b6f4'}
+  const styles = {backgroundColor:'#84b6f4', width:'100%'}
   return (
     <MainLayout styles={styles}>
       <DarkLayout>

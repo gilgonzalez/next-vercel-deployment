@@ -23,7 +23,7 @@ export default function ContactPage() {
 
 ContactPage.getLayout = function getLayout( page:JSX.Element[] ) {
   const styles = {
-    backgroundColor:'#77dd77'
+    backgroundColor:'#77dd77',width:'100%'
   }
   return (
     <MainLayout styles={styles}>

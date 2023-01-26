@@ -28,7 +28,7 @@ const Pricing = () => {
 export default Pricing
 
 Pricing.getLayout = function getLayout( page:JSX.Element[] ) {
-  const styles = {backgroundColor:'#fdfd96'}
+  const styles = {backgroundColor:'#fdfd96',width:'100%'}
   return (
     <MainLayout styles={styles}>
       <DarkLayout>
